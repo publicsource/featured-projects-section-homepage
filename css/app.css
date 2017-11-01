@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+::-moz-selection {
+  background-color: #a0c5ff;
+  color: #000; }
+
+::selection {
+  background-color: #a0c5ff;
+  color: #000; }
+
+html {
+  font-size: 100%;
+  /* Sets baseline of 16px for REM calculations */ }
+  @media screen and (max-width: 992px) {
+    html {
+      font-size: 90%; } }
+  @media screen and (max-width: 882px) {
+    html {
+      font-size: 80%; } }
+
+body {
+  background-color: #ffffff;
+  color: #000;
+  font-family: 'mallory', sans-serif;
+  font-weight: 400; }
+
+h1 {
+  font-family: 'Mallory';
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: 'Mallory';
+  letter-spacing: 1px; }
+
+h5 {
+  font-family: 'Alfa Slab One';
+  letter-spacing: 1px; }
+
+h2,
+h3 {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2; }
+
+p,
+li {
+  line-height: 1.4; }
+
+a {
+  -webkit-transition: color 0.15s linear;
+  -moz-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  text-decoration: none; }
+
+.story {
+  width: 100%;
+  margin: auto; }
+  .story a {
+    color: #000; }
+    .story a:hover {
+      color: #000; }
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1260px; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (max-width: 745px) {
+    .container {
+      margin: 0px; } }
+
+.outer {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .outer:last-child {
+    margin-right: 0; }
+
+.inner {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
+  .inner:last-child {
+    margin-right: 0; }
+  @media (max-width: 745px) {
+    .inner {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .inner:last-child {
+        margin-right: 0; } }
+
+.inner h3 {
+  font-size: 22px;
+  margin-bottom: 2.5%; }
+
+.inner p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #484848;
+  line-height: 27px; }

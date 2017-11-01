@@ -1,0 +1,46 @@
+.story {
+    width: 100%;
+    margin: auto;
+        a {
+            color: #000;
+            &:hover{
+                color: #000;
+            }
+        }
+}
+
+
+.container {
+  @include outer-container (100%);
+  max-width: 1260px;
+    @media(max-width: 745px){
+    margin: 0px;
+    }
+}
+
+.outer {
+  @include span-columns(12);
+}
+
+.inner {
+  @include span-columns(4 of 12);
+    @media(max-width: 745px){
+    @include span-columns(12);
+    }
+
+}
+
+.inner h3 {
+  font-size: 22px;
+  margin-bottom: 2.5%;
+}
+
+.inner p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #484848;
+  line-height: 27px;
+
+}
+
+
